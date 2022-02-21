@@ -1,0 +1,46 @@
+<div class="jsms-calculator">
+    <div class="opertation-blocks">
+        <h1>JSMSCalculator</h1>
+            <button class="operation-button" id="buttonPlus">+</button>
+            <button class="operation-button" id="buttonMinus">-</button>
+            <button class="operation-button" id="buttonMultiply">*</button>
+            <button class="operation-button" id="buttonDivide">/</button>
+            <button class="operation-button" id="buttonPercent">%</button>
+            <div>
+                <button class="operation-button" id="buttonAverage">AVG</button>
+                <button class="operation-button" id='buttonSquare'>√</button>
+            </div>
+    </div>
+    <div class="separator">
+        <hr>
+    </div>
+    <div class="inputs-block">
+        <div class="input-block">
+            <label>Number 1</label>
+            <input type="number" id="number1" />
+        </div>
+        <div class="input-block">
+            <label>Number 2</label>
+            <input type="number" id="number2" />
+        </div>
+        <div class="input-block">
+
+            <label>Number 3</label>
+            <input type="number" id="number3">
+        </div>
+        <div class="input-block">
+            <label>Number 4</label>
+            <input type="number" id="number4">
+        </div>
+        <div><button class="operation-button" id="buttonClear" style="width: 60px; height: 30px;">C</button></div>
+    </div>
+</div>
+<div class="rules">
+    <h1 style="text-align: center;">Guide:</h1>
+    <ol class="text">
+        <li>Для вычисления процента от числа вводите числа в поля Number 1(число), Number 2(процент)</li><br>
+        <li>Для вычисления корня, вводите число в поле Number 1</li>
+    </ol>
+</div>
+<link rel="stylesheet" type="text/css" href="css/calculator.css">
+<script src="js/calculator.js"></script>

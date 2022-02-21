@@ -1,0 +1,51 @@
+.jsms-calculator{
+background-color: aliceblue;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.jsms-calculator .opertation-blocks button{
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+
+.jsms-calculator .inputs-block .input-block{
+    display: inline-block;
+    padding: 10px;
+}
+
+.jsms-calculator .inputs-block .input-block label{
+    display: block;
+}
+
+.rules{
+    position: sticky;
+    margin-top: -448px;
+    width: 351px;
+    height: 447px;
+    text-align: center;
+    border: 1px solid black;
+    display: inline-block;
+    background-color: aliceblue;
+}
+.text{
+    display: block;
+    margin-top: -20px;
+    padding: 20px;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    color:#EE82EE;
+}
+.jsms-calculator .opertation-blocks button:hover{
+    background-color: greenyellow;
+    border: 1.5px solid black;
+}
+.jsms-calculator .inputs-block button:hover{
+    background-color: greenyellow;
+    border: 1.5px solid black;
+}
